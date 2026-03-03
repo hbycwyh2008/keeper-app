@@ -1,8 +1,5 @@
-# Railway/Nixpacks 构建配置
-# Node 18 + NODE_OPTIONS 兼容 react-scripts 3.x
-
 [phases.build]
-cmds = ["npm install", "NODE_OPTIONS=--openssl-legacy-provider npm run build"]
+cmds = ["npm install", "npm run build"]
 
 [start]
 cmd = "npm start"
